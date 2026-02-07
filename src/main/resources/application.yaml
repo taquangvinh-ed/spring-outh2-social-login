@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-outh2-social-login
+  security:
+    user:
+      name: ${USERNAME:default}
+      password: ${PASSWORD:pass123}
+
+
+
+github:
+  client:
+    id: ${GITHUB_CLIENT_ID}
+    secret: ${GITHUB_CLIENT_SECRET}
