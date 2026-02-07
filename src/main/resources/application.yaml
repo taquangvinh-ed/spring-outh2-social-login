@@ -6,6 +6,16 @@ spring:
       name: ${USERNAME:default}
       password: ${PASSWORD:pass123}
 
+    outh2:
+      client:
+        registration:
+          github:
+            client-id: ${GITHUB_CLIENT_ID}
+            client-secret: ${GITHUB_CLIENT_SECRET}
+            scope:
+              - read-user
+              - read-email
+
 
 
 github:
